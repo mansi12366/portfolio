@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* Full-screen content section */
+.full-screen {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  border-radius: 12px;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.full-screen h1 {
+  font-size: 3rem;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.full-screen p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 700px;
+}
+
+body {
+  transition: opacity 0.5s ease;
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #020209;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body{
+    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.759);
+    color: rgba(15, 157, 15, 0.695);
+    line-height: 1-6;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.759);
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #1a237e;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  section {
+    background-color: rgba(0, 0, 0, 0.759);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  h2 {
+    font-size: 1.8rem;
+    color: #1a237e;
+    margin-bottom: 10px;
+  }
+  a {
+    color: #1565c0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .full-screen h2 {
+  margin-top: 25px;
+  font-size: 1.8rem;
+  color: #0d47a1;
+}
+
+.full-screen ul {
+  list-style: square;
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+  padding-left: 20px;
+  color: #444;
+}
+
+.resume-button {
+  margin-top: 30px;
+  display: inline-block;
+  background-color: #1a237e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #3949ab;
+}
+.project {
+  text-align: left;
+  max-width: 800px;
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  color: #0d47a1;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.project ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #444;
+  list-style: disc;
+}
